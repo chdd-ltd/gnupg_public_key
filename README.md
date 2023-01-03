@@ -13,14 +13,14 @@ sub   rsa4096 2023-01-02 [E]
 
 ## Keyserver
 ``` bash
-$ gpg --keyserver http://keyserver.ubuntu.com --search-key CA8C79A7F676456F79D0FB4055B53CBDA8B87A79
+$ gpg --keyserver http://keyserver.ubuntu.com --search-keys CA8C79A7F676456F79D0FB4055B53CBDA8B87A79
 
-$ gpg --keyserver http://keyserver.ubuntu.com --recv-key CA8C79A7F676456F79D0FB4055B53CBDA8B87A79
+$ gpg --keyserver http://keyserver.ubuntu.com --receive-keys CA8C79A7F676456F79D0FB4055B53CBDA8B87A79
 ```
 
 ## Download & import key
 ``` bash
-wget https://raw.githubusercontent.com/chdd-ltd/gpg_public_key/main/29140722+chdd-ltd@users.noreply.github.com_public.asc
+$ wget https://raw.githubusercontent.com/chdd-ltd/gngpg_public_key/main/29140722+chdd-ltd@users.noreply.github.com_public.asc
 
 $ gpg --import 29140722+chdd-ltd@users.noreply.github.com_public.asc
 
