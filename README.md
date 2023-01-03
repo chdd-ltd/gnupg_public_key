@@ -20,7 +20,7 @@ $ gpg --keyserver http://keyserver.ubuntu.com --receive-keys CA8C79A7F676456F79D
 
 ## Download & import key
 ``` bash
-$ wget https://raw.githubusercontent.com/chdd-ltd/gngpg_public_key/main/29140722+chdd-ltd@users.noreply.github.com_public.asc
+$ wget https://raw.githubusercontent.com/chdd-ltd/gnupg_public_key/main/29140722+chdd-ltd@users.noreply.github.com_public.asc
 
 $ gpg --import 29140722+chdd-ltd@users.noreply.github.com_public.asc
 
